@@ -1,0 +1,26 @@
+{
+  "name": "notas-backend",
+  "version": "1.0.0",
+  "description": "Proyect Notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokis128/Notas-backend.git"
+  },
+  "author": "Jorge Valentini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kokis128/Notas-backend/issues"
+  },
+  "homepage": "https://github.com/kokis128/Notas-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}

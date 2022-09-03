@@ -12,6 +12,7 @@ router.route('/')
 router.route('/:id')
     .put(updateNotes)
     .delete(deleteNotes)
+    .get(getNote)
 
 
 module.exports = router;
